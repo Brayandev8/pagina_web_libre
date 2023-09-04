@@ -1,0 +1,124 @@
+body{
+    background-image: url(../imágenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.deportivos{
+    background-image: url(../imágenes/deportivos.jpg);
+}
+
+.super-deportivos{
+    background-image: url(../imágenes/superdeportivo.webp);
+}
+
+.hyper-deportivos{
+    background-image: url(../imágenes/hiperdeportivo.avif);
+}
+
+.deportivos, .super-deportivos, .hyper-deportivos{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+}
+.deportivos a, .super-deportivos a, .hyper-deportivos a{
+    font-size: 150%;
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    color: white;
+}
+
+video{
+    font-size: 150%;
+    background-color: rgba(0, 0, 0);
+    height: 170px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    color: white;
+}
+
+.Principal header, .Principal main, .Principal footer{
+    background-color: rgba(0, 255, 255, 0.4);
+}
+
+.Deportivos header, .Deportivos main, .Deportivos footer{
+    background-color: rgba(205, 127, 50, 0.4);
+}
+
+.Super header, .Super main, .Super footer{
+    background-color: rgba(192, 192, 192, 0.4);
+}
+
+.Hiper header, .Hiper main, .Hiper footer{
+    background-color: rgba(255, 215, 0, 0.4);
+}
+
+.col-4{
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, .enlaces{
+    margin-bottom: 0.5rem; /* Cambiar el margen inferior de los encabezados */
+    margin-top: 1rem; /* Margen superior */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Cambiar la fuente de los encabezados */
+    font-style: italic; /* Cambiar el estilo de la fuente de los encabezados */
+    font-weight: 600; /* Cambiar el peso de la fuente de los encabezados */
+    line-height: 1.5; /* Cambiar la altura de línea de los encabezados */
+    padding: 0.1875em; /* Padding */
+    color: white;
+  }
+
+  .card img,
+.card video{
+    max-width: 300px; /* Asegura que las imágenes y videos no se agranden más allá del tamaño de su contenedor */
+    height: 200px; /* Mantén la relación de aspecto original */
+    background-color: black;
+    
+}
+
+.card {
+    border-top-left-radius: 10px; /* Radio para la esquina superior izquierda */
+    border-top-right-radius: 10px; /* Radio para la esquina superior derecha */
+    overflow: hidden; /* Oculta cualquier contenido que se salga del radio */
+    display: flex; /* Usa el modelo de caja flexible para centrar verticalmente */
+    flex-direction: column; /* Asegura que el contenido esté apilado verticalmente */
+    align-items: center;
+}
+
+.card audio {
+    max-width: 100%; /* Asegura que el audio no se salga del contenedor */
+    margin: auto; /* Centra horizontalmente el elemento de audio */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px; /* Ancho deseado para los botones */
+    height: 50px; /* Alto deseado para los botones */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo de los botones */
+    border-radius: 50%; /* Redondea los bordes para crear un aspecto circular */
+    color: white; /* Color del icono de flecha */
+    text-align: center;
+    line-height: 50px; /* Centra el icono verticalmente */
+    font-size: 10px; /* Tamaño del icono de flecha */
+    z-index: 1; /* Asegura que los botones estén en la parte superior del carrusel */
+}
+
+.carousel-control-prev {
+    left: 10px; /* Ajusta la posición del botón "Anterior" a la izquierda */
+}
+
+.carousel-control-next {
+    right: 10px; /* Ajusta la posición del botón "Siguiente" a la derecha */
+}
